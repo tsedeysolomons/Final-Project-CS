@@ -1,25 +1,31 @@
 import React from 'react'
-import PriorityHighRoundedIcon from '@mui/icons-material/PriorityHighRounded';
+import ReportGmailerrorredIcon from '@mui/icons-material/ReportGmailerrorred';
+import SearchIcon from '@mui/icons-material/Search';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import './Header.css'
 function Header() {
   return (
     <nav>
         <div className='upper'>
             <div className='left'>
-               <PriorityHighRoundedIcon />
-               <p className='red'>Important:  </p>
-               <p>Updates on flights to/from Djbouti and Sudan</p>
+               <ReportGmailerrorredIcon />
+               <p className='red upperMessage'>Important:  </p>
+               <p className='upperMessage'>Updates on flights to/from Djbouti and Sudan</p>
             </div>
             <p className='right'>Show more</p>
         </div>
         <div className='lower'>
-            <div>
-                
+            <div className='lowerLeft'>
+              <p>BOOK</p>
+              <p>MANAGE</p>
+              <p>LOYALITY</p>
+              <p>HELP</p>
             </div>
-            <p>BOOK</p>
-            <p>MANAGE</p>
-            <p>LOYALITY</p>
-            <p>HELP</p>
+            <div className='right'>
+              <SearchIcon /> 
+              <AccountCircleIcon />
+              <p>LOG IN</p>
+            </div>
         </div>
     </nav>
     
