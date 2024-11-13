@@ -1,0 +1,18 @@
+.upper{
+    background-color: #FEF8D5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.red{
+    color: red;
+}
+.left{
+    display: flex;
+}
+.lower{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding: 20px 20px;
+}
