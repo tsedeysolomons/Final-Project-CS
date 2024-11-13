@@ -30,3 +30,7 @@
 .lowerLeft{
     display: flex;
 }
+.banner{
+    height: 400px;
+    width: 1265px;
+}

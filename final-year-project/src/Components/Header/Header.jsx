@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from '.././../Images/Banner.jpg'
 import ReportGmailerrorredIcon from '@mui/icons-material/ReportGmailerrorred';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -27,7 +28,9 @@ function Header() {
               <p>LOG IN</p>
             </div>
         </div>
+        <img className='banner' src={Banner} alt="#" />
     </nav>
+
     
   )
 }
