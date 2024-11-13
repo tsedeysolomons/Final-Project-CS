@@ -13,6 +13,9 @@ function Header() {
             <p className='right'>Show more</p>
         </div>
         <div className='lower'>
+            <div>
+                
+            </div>
             <p>BOOK</p>
             <p>MANAGE</p>
             <p>LOYALITY</p>
