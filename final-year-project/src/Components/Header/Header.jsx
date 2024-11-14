@@ -23,7 +23,7 @@ function Header() {
             </div>
             <div className='lowerRight'>
               <SearchIcon /> 
-              <div><AccountCircleIcon /> <p>LOG IN</p></div>
+              <div><AccountCircleIcon /><p>LOG IN</p></div>
             </div>
         </div>
     </nav>

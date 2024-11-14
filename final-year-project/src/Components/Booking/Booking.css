@@ -2,16 +2,23 @@
     background-color: white;
     color: black;
     position: relative;
-    margin: 0 30%;
+    margin: 0 20%;
     padding: 10px;
-    margin-top: -200px;
-
+    margin-top: -220px;
     justify-content: center;
 }
 .booking , .bookingInput{
     display: flex;
     padding: 10px 0;
+    justify-content: space-evenly;
+}
+.bookingWrapper .booking p{
+    border-radius: grey solid 10px;
 }
 .buttons{
     background-color: red;
+    color: white;
+}
+.bookingInput input, .bookingInput p{
+    padding: 10px 30px;
 }
