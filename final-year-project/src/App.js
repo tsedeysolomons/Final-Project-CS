@@ -1,8 +1,9 @@
 import './App.css';
 import Header from './Components/Header/Header';
-// import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 import Banner from './Components/Banner/Banner';
 import Booking from './Components/Booking/Booking';
+import Home from './Components/Home/Home';
 
 function App() {
   return ( 
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Banner />
       <Booking />
-      {/* <Footer /> */}
+      <Home />
+      <Footer />
     </>
       
   );

@@ -33,7 +33,7 @@ nav{
 .lowerLeft{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     float: left;
 }
 .lower .lowerRight{
