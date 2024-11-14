@@ -1,5 +1,4 @@
 import React from 'react'
-import Banner from '.././../Images/Banner.jpg'
 import ReportGmailerrorredIcon from '@mui/icons-material/ReportGmailerrorred';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -22,13 +21,11 @@ function Header() {
               <p>LOYALITY</p>
               <p>HELP</p>
             </div>
-            <div className='right'>
+            <div className='lowerRight'>
               <SearchIcon /> 
-              <AccountCircleIcon />
-              <p>LOG IN</p>
+              <div><AccountCircleIcon /> <p>LOG IN</p></div>
             </div>
         </div>
-        <img className='banner' src={Banner} alt="#" />
     </nav>
 
     

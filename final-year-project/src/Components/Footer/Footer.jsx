@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <section>
+    <section className='footerWrapper'>
         <div>
             <h4>About</h4>
             <p>Some</p>

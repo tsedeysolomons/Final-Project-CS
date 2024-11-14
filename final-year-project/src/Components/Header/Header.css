@@ -3,8 +3,11 @@
     font-weight: 700;
     line-height: normal;
 }
+nav{
+    position: relative;
+}
 .upper{
-    background-color: #FEF8D5;
+    /* background-color: #FEF8D5; */
     display: flex;
     justify-content: space-between;
     padding: 10px 80px;
@@ -29,8 +32,17 @@
 }
 .lowerLeft{
     display: flex;
+    justify-content: space-between;
+    width: 50%;
+    float: left;
 }
-.banner{
-    height: 400px;
-    width: 1265px;
+.lower .lowerRight{
+    display: flex;
+    width: 10%;
+    float: right;
+    justify-content: space-between;
+}
+.lower .lowerRight div{
+    display: flex;
+    align-items: center;
 }

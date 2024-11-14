@@ -1,0 +1,17 @@
+.bookingWrapper{
+    background-color: white;
+    color: black;
+    position: relative;
+    margin: 0 30%;
+    padding: 10px;
+    margin-top: -200px;
+
+    justify-content: center;
+}
+.booking , .bookingInput{
+    display: flex;
+    padding: 10px 0;
+}
+.buttons{
+    background-color: red;
+}
