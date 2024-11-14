@@ -1,22 +1,25 @@
-section h3{
-    position: relative;
-    background-color: white;
+*{
     text-align: center;
-    padding: 50px 0;
 }
-img{
-    width: 350px;
+section h3{
+    padding: 30px 0;
+    font-size: 25px;
 }
 .home{
     display: flex;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 30px 60px;
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-    text-align: center;
 }
 .home div{
     box-shadow: 1px 1px 5px grey;
 }
 .home div p{
     padding: 10px;
+}
+.homeAbout{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    margin: 0 110px;
 }

@@ -7,7 +7,7 @@ nav{
     position: relative;
 }
 .upper{
-    /* background-color: #FEF8D5; */
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 10px 80px;
