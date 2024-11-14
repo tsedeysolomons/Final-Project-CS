@@ -3,38 +3,75 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <section className='footerWrapper'>
-        <div>
-            <h4>About</h4>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
+    <section >
+        <div className='footerWrapper'>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
         </div>
-        <div>
-            <h4>About</h4>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-        </div>
-        <div>
-            <h4>About</h4>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-        </div>
-        <div>
-            <h4>About</h4>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
-            <p>Some</p>
+        <p className='border'></p>
+        <div className='footerWrapper'>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+                <p>Some</p>
+            </div>
         </div>
     </section>
   )

@@ -8,7 +8,7 @@ import './Home.css';
 function Home() {
   return (
     <section>
-        <h3>Featured destinations from Addis Ababa</h3>
+        <h3><span>Featured destinations from </span>Addis Ababa</h3>
         <div className='home'>
             <div>
                 <img src={awash} alt="#" />
@@ -64,7 +64,7 @@ function Home() {
                 <img src={ourTrain} alt="#" />
                 <p>Our Train</p>
             </div>
-            <div>
+             <div>
                 <img src={ourTeam} alt="#" />
                 <p>Our Team</p>
             </div>

@@ -6,13 +6,18 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 150px;
     color: #fff;
     background-color: #333333;
+}
+.border{
+    /* padding: 0 150px; */
+    border-bottom: 1px solid grey;
 }
 .footerWrapper h4{
     font-size: 20px;
 }
 .footerWrapper p{
     color: grey;
+    font-weight: lighter;
 }
