@@ -2,6 +2,11 @@ import React from 'react'
 import awash from '../../Images/Awash-Woldia1.jpg';
 import djbouti from '../../Images/Djbouti1.jpg';
 import students from '../../Images/students2.jpg';
+import classs from '../../Images/class.jpg';
+import food1 from '../../Images/food1.jpg';
+import food2 from '../../Images/food2.jpg';
+import food3 from '../../Images/food3.jpg';
+import food4 from '../../Images/food4.jpg';
 import ourTeam from '../../Images/our-team-circle.png';
 import ourTrain from '../../Images/our-train-circle.png';
 import './Home.css';
@@ -51,6 +56,7 @@ function Home() {
             </div>
         </div>
         <div className='more'><p>See more fares</p></div>
+
         <div className='discount'>
             <img src={students} alt="" />
             <div className='discountPromo'>
@@ -60,6 +66,19 @@ function Home() {
                 <button className=''>Learn more</button>
             </div>
         </div>
+
+        <div className='class'>
+            <div className='classleft'>
+                <img src={classs} alt="#" />
+            </div>
+            <div className='classRight'>
+                <img src={food1} alt="#" />
+                <img src={food2} alt="#" />
+                <img src={food3} alt="#" />
+                <img src={food4} alt="#" />
+            </div>
+        </div>
+
         <h3>About us</h3>
         <p>Learn more about our history, our business and sustainability initiatives</p>
         <div className='homeAbout'>
