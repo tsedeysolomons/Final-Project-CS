@@ -10,7 +10,7 @@ function Header() {
             <div className='left'>
                <ReportGmailerrorredIcon />
                <p className='red upperMessage'>Important:  </p>
-               <p className='upperMessage'>Updates on flights to/from Djbouti and Sudan</p>
+               <p className='upperMessage'>Updates on trains to/from Diredawa and Djibouti</p>
             </div>
             <p className='right'>Show more</p>
         </div>
