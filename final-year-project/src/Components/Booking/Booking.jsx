@@ -16,6 +16,7 @@ function Booking() {
         <div className='bookingInput d-flex'>
             <input type="text"  placeholder='From station'/>
             <input type="text" placeholder='To station'/>
+            <input type="date" name="date" id="date" placeholder='Departing' />
             <p className='buttons py-3 px-5'>Continue</p>
         </div>
     </section>
