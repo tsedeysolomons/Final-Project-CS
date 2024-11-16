@@ -31,7 +31,7 @@ span{
     font-family: 'Times New Roman', Times, serif;
     margin-top: -400px;
     color: white;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 .discountPromo h3{
     font-size: 40px;
@@ -41,19 +41,16 @@ span{
     padding: 10px 20px;
     box-shadow: 1px 1px 5px grey;
 }
-.class{
+/* .class{
     display: flex;
     margin: 0 100px;
-}
+} */
 .classRight img{
-    width: 40%;
+    height: 250px;
 }
-.class .left{
+/* .class .left{
     width: 50%;
-}
-.class .left img{
-
-}
+} */
 .homeAbout{
     display: flex;
     justify-content: space-between;

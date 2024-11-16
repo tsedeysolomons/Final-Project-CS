@@ -9,6 +9,7 @@ import food3 from '../../Images/food3.jpg';
 import food4 from '../../Images/food4.jpg';
 import ourTeam from '../../Images/our-team-circle.png';
 import ourTrain from '../../Images/our-train-circle.png';
+import '../../App.css';
 import './Home.css';
 
 function Home() {
@@ -67,15 +68,15 @@ function Home() {
             </div>
         </div>
 
-        <div className='class'>
-            <div className='classleft'>
+        <div className='class row'>
+            <div className='classleft col-md-6'>
                 <img src={classs} alt="#" />
             </div>
-            <div className='classRight'>
-                <img src={food1} alt="#" />
-                <img src={food2} alt="#" />
-                <img src={food3} alt="#" />
-                <img src={food4} alt="#" />
+            <div className='classRight col-md-6 row '>
+                <img className='col-md-6 p-1' src={food1} alt="#" />
+                <img className='col-md-6 p-1' src={food2} alt="#" />
+                <img className='col-md-6 p-1' src={food3} alt="#" />
+                <img className='col-md-6 p-1' src={food4} alt="#" />
             </div>
         </div>
 
