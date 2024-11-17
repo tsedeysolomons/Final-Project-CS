@@ -5,7 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import './Header.css'
 function Header() {
   return (
-    <nav>
+    <nav className=''>
         <div className='upper d-flex row bg-white px-5 pt-3'>
             <div className='left d-flex col-md-10 col-sm-8 text-wrap'>
                <ReportGmailerrorredIcon />
